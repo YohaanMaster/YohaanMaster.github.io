@@ -35,7 +35,7 @@
 
 				var href = $(this).attr('href');
 
-				// Not a panel link? Bail.
+				// Not a panel link? Just give up.
 					if (href.charAt(0) != '#'
 					||	$panels.filter(href).length == 0)
 						return;
