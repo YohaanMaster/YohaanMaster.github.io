@@ -1993,7 +1993,7 @@ input, select, textarea {
 				-webkit-align-items: center;
 				-ms-align-items: center;
 				align-items: center;
-				opacity: 0.6%
+				opacity: 0.6;
 			}
 
 				#main > .panel.intro .pic {
