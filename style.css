@@ -121,4 +121,22 @@
  .container .btn.volume-control .icon.minus {
 	 transform: translate(-50%, -50%);
 }
- 
+span{
+   position: absolute;
+   transform: translate(-50%,-50%);
+   left: 50%;
+   font-family: 'Poppins',sans-serif;
+   font-size: 150px;
+   color: #f2f2f2;
+   text-shadow: 
+   -8px -8px 12px rgba(255,255,255,0.4),
+   8px 8px 12px rgba(0,0,0,0.15);
+   outline: none;
+}
+.top-span {
+  top: 25%;
+}
+
+.bottom-span {
+  top: 75%
+}
